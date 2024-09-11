@@ -15,7 +15,7 @@ while True:
 
     elif guess > number:
         print(f'Твоё число больше того, что загадано.')
-    elif guess == number:
+    else:
         break
 
 print(f'Урааа, ты угадала!')
